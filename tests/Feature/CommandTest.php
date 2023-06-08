@@ -6,6 +6,9 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
+/**
+ * Dokumentasi: https://laravel.com/docs/10.x/console-tests
+ */
 class CommandTest extends TestCase
 {
     /**

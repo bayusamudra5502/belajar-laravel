@@ -13,6 +13,7 @@ use App\Data\Kucing;
 | commands. Each Closure is bound to a command instance allowing a
 | simple approach to interacting with each command's IO methods.
 |
+| Dokumentasi: https://laravel.com/docs/10.x/artisan
 */
 
 Artisan::command('inspire', function () {
