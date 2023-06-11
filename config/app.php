@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -171,6 +171,7 @@ return [
         App\Providers\DokterHewanProvider::class,
         App\Providers\RumahHewanProvider::class,
         App\Providers\TamanBermainProvider::class,
+        App\Providers\ViewProvider::class,
     ])->toArray(),
 
     /*
